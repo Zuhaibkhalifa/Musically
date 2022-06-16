@@ -21,6 +21,7 @@ function App() {
         isPlaying={isPlaying}
         currentSong={currentSong}
       />
+      <div>h1</div>
     </div>
   );
 }
