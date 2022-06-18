@@ -6,8 +6,17 @@
 h1,
 h2,
 h3 {
-  color: rgba(0, 0, 0, 0.651);
+  color: rgba(0, 0, 0, 0.993);
+}
+body {
+  font-family: "Fascinate Inline", cursive;
+}
+h3,
+h4 {
+  font-size: small;
+  color: gray;
 }
 
 @import "./songs";
 @import "./player";
+@import "./Library";
