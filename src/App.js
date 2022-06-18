@@ -42,6 +42,7 @@ function App() {
         audioRef={audioRef}
         setCurrentSong={setCurrentSong}
         isPlaying={isPlaying}
+        setSongs={setSongs}
       />
       <audio
         onLoadedMetadata={timeUpdateHandler}
